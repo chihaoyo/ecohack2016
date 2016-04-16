@@ -1,2 +1,2 @@
-# ecohack2016
-Code for ecohack2016
+# Eco_Hack 2016
+Code for Eco_Hack 2016

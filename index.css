@@ -1,0 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+form > * {
+	vertical-align: top;
+}
+form > textarea {
+	width: 16em;
+	height: 9em;
+}
