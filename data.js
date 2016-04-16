@@ -17,7 +17,7 @@ $(function() {
 			type: 'POST',
 			crossDomain: true,
 			data: JSON.stringify(data), // not data
-			dataType: 'json',
+			//dataType: 'json', // server response is plain text not JSON
 			success: function(response) {
 				console.info(response);
 			},
