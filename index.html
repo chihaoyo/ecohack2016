@@ -8,12 +8,15 @@
 	<script src="data.js"></script>
 </head>
 <body>
-	<form>
-    	<input id="type" placeholder="type" required />
-    	<textarea id="data" placeholder="JSON object"></textarea>
+	<form id="post">
+    	<input name="type" placeholder="type" required />
+    	<textarea name="data" placeholder="JSON object"></textarea>
     	<input type="submit" />
-    </form>
-    <button id="query"/>query</button>
+	</form>
+    <form id="get">
+		<input name="type" placeholder="type" required />
+    	<input type="submit" val="query" />
+	</form>
     <div id="canvas"></div>
 </body>
 </html>
